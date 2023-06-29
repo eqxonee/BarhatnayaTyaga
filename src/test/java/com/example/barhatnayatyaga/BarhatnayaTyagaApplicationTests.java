@@ -1,0 +1,13 @@
+package com.example.barhatnayatyaga;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class BarhatnayaTyagaApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
