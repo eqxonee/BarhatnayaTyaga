@@ -17,7 +17,7 @@ import java.util.List;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "users")
+@Table(name = "clients")
 public class Client implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -32,6 +32,9 @@ public class Client implements UserDetails {
     private String name;
     @Column(name = "description")
     private String description;
+
+    @Column(name = "role")
+    private String role;
 
 
     @Override
